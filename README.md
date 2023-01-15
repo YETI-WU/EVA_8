@@ -1,4 +1,4 @@
-# EVA_8
+# EVA_8_S2.5  
 ## Data
 The data is from the MNIST dataset, handwritten digit database.  
 Below shows 32 images as a batch input ot the network.  
@@ -9,6 +9,8 @@ Below shows 32 images as a batch input ot the network.
 * image data is prepared in a batch number 32.  
 * use torch.randint(0, 10, (1,)) to generate a random interger from 0 to 9, then convert it to OneHout tensor as the second data
   
+![](images/network.png)  
+
 ## Network
 The network takes two input:  
 1.   Image, handwritten digit from MNIST  
